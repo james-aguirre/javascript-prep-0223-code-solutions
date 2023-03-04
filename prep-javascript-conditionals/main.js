@@ -1,18 +1,18 @@
 const age = 24;
 function isAdult(age) {
   if (age < 18) {
-    return 'false';
+    return false;
   } else if (age > 18) {
-    return 'true';
+    return true;
   }
 }
 console.log(isAdult(age));
 const student1Score = 100;
 function didStudentPass(score) {
   if (score >= 70) {
-    return 'true';
+    return true;
   } else {
-    return 'false';
+    return false;
   }
 }
 console.log(didStudentPass(student1Score));

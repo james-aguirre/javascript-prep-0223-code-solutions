@@ -6,5 +6,5 @@ const thirdElement = languages[2];
 console.log(thirdElement);
 const length = languages.length;
 console.log(length);
-const lastElement = length - 1;
+const lastElement = languages[languages.length - 1];
 console.log(lastElement);
